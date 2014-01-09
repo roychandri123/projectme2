@@ -1,4 +1,3 @@
-
 /*
  * DB Config
  * Created By: Jay Wilson
@@ -8,10 +7,10 @@
 var mysqlDB = require('mysql-model');
 
 var dbConn = mysqlDB.createConnection({
-  host     : 'localhost',
+  host     : '107.21.205.34',
   user     : 'root',
-  password : 'pakmaTZr',
-  database : 'ProjectMe',
+  password : 'new-password',
+  database : 'ProjectMe2',
 });
 exports.mysqlDB = mysqlDB;
 exports.dbConn = dbConn;
